@@ -1,0 +1,21 @@
+{
+  "version": "TanaIntermediateFile V0.1",
+  "nodes": [
+    {
+      "uid": "todo",
+      "name": "Task todo",
+
+      "editedAt": 1600000000000,
+      "type": "node",
+      "todoState": "todo"
+    },
+    {
+      "uid": "done",
+      "name": "Task done",
+      "editedAt": 1600000100000,
+      "type": "node",
+      "todoState": "done"
+    }
+  ],
+  "attributes": []
+}

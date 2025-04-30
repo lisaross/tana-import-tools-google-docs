@@ -1,0 +1,10 @@
+ .vscode/settings.json
+.DS_Store
+node_modules
+dist
+.env
+datasets
+yarn-error.log
+
+.yarn/*
+!.yarn/plugins

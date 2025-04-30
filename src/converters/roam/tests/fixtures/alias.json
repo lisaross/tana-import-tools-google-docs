@@ -1,0 +1,95 @@
+[
+  {
+    "refs": [{ "uid": "9Kc68QbDR" }],
+    "string": "this is the [test page]([[tests]])",
+    "uid": "pJ6scSv6R",
+    ":block/refs": [{ ":block/uid": "9Kc68QbDR" }]
+  },
+  {
+    "uid": "9Kc68QbDR",
+    "title": "tests"
+  },
+  {
+    "uid": "plainLinkWithAlias",
+    "title": "Plain link: [someSite](https://www.vg.no)"
+  },
+
+  {
+    "string": "REFME",
+    "uid": "3G_j8mOW5"
+  },
+  {
+    "string": "See this note [*](((3G_j8mOW5)))",
+    ":block/refs": [{ ":block/uid": "3G_j8mOW5" }],
+    "refs": [{ "uid": "3G_j8mOW5" }],
+    "uid": "seeThisNote"
+  },
+  {
+    "string": "Point to [[Complex ((3G_j8mOW5)) and [[Jack Black]]]]",
+
+    ":block/refs": [{ ":block/uid": "jackBlack" }, { ":block/uid": "complexWithRefs" }],
+    "refs": [{ "uid": "jackBlack" }, { "uid": "complexWithRefs" }],
+    "uid": "pointToToComplex"
+  },
+  {
+    "refs": [{ "uid": "jackBlack" }],
+    "uid": "complexWithRefs",
+    ":block/refs": [{ ":block/uid": "jackBlack" }],
+    "title": "Complex ((3G_j8mOW5)) and [[Jack Black]]"
+  },
+  {
+    "uid": "jackBlack",
+    "title": "Jack Black"
+  },
+
+  {
+    "string": "a",
+    "uid": "y7Tvpja6V"
+  },
+  {
+    "string": "[*](((y7Tvpja6V)))",
+    ":block/refs": [{ ":block/uid": "y7Tvpja6V" }],
+    "refs": [{ "uid": "y7Tvpja6V" }],
+    "uid": "mOmgcpT2V"
+  },
+  {
+    "uid": "topical",
+    "title": "topic"
+  },
+  {
+    "string": "See #topic",
+
+    ":block/refs": [{ ":block/uid": "topical" }],
+    "refs": [{ "uid": "topical" }],
+    "uid": "hashTopical"
+  },
+  {
+    "string": "Some Node",
+    ":block/refs": [{ ":block/uid": "topical" }],
+    "uid": "someNode"
+  },
+  {
+    "string": "we can have many aliases [*]([[Some Node]]) [*]([[Some Node]]) [*]([[Broken Node]]) [*]([[Broken Node]]) in the same [block]([[July 15th, 2022]])",
+
+    ":block/refs": [{ ":block/uid": "topical" }],
+    "refs": [{ "uid": "someNode" }],
+    "uid": "manyAliases"
+  },
+  {
+    "string": "block ref alias [*](((someNode))) [*](((someNode))) [*](((someBrokenId))) [*](((someBrokenId)))",
+    ":block/refs": [{ ":block/uid": "topical" }],
+    "refs": [{ "uid": "someNode" }],
+    "uid": "blockRefAlias"
+  },
+
+  {
+    "title": "July 15th, 2022",
+    "uid": "07-15-2022"
+  },
+  {
+    "string": "this is the [##]([[tests]])",
+    ":block/refs": [],
+    "refs": [{ "uid": "9Kc68QbDR" }],
+    "uid": "doubleHashAlias"
+  }
+]
