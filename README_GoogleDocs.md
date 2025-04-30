@@ -79,6 +79,16 @@ The first time you run the Google Docs converter, it will initiate an OAuth 2.0 
 *   **Basic Formatting:** Bold, italics, strikethrough, and links within text are converted to their Tana Markdown equivalents (`**bold**`, `_italic_`, `~~strikethrough~~`, `[link text](URL)`).
 *   **Other Elements:** Images, page breaks, horizontal rules, and other complex elements might be represented as placeholders or ignored.
 
+## Workspace Organization
+
+When you import your Google Docs content into Tana, please note:
+
+*   The import will create a new workspace containing your imported content
+*   All imported nodes will be placed in that workspace's Library, NOT on the home page
+*   The workspace may appear empty at first glance, but all your content is safely stored in the Library
+*   While the formatting may not be perfect, this method is significantly more efficient than manually copying and pasting each document
+*   Using Tana's paste functionality directly would likely result in formatting issues, making this import tool a faster, if not better alternative
+
 ## Troubleshooting
 
 *   **`EADDRINUSE` Error:** If you get an error indicating port 3000 is already in use during authorization, make sure no other application is using that port and try again.
