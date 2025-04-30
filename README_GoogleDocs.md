@@ -1,6 +1,6 @@
 # Tana Import Tools - Google Docs Converter
 
-This document describes how to set up and use the Google Docs converter, which is part of the `tana-import-tools` project.
+This document describes how to set up and use an alpha version of a Google Docs converter for Tana. Note: the Tana team didn't write this, but I did use their import tools to build it.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ This document describes how to set up and use the Google Docs converter, which i
 
 ## Configuration
 
-1.  **Set Environment Variables:** The tool requires your Google API Client ID and Client Secret to be set as environment variables. Set them in your terminal session or add them to your shell profile (`.bashrc`, `.zshrc`, etc.):
+1.  **Set Environment Variables:** The tool requires your Google API Client ID and Client Secret to be set as environment variables. Add as .env, set them in your terminal session or add them to your shell profile (`.bashrc`, `.zshrc`, etc.):
     ```bash
     export GOOGLE_CLIENT_ID="YOUR_CLIENT_ID"
     export GOOGLE_CLIENT_SECRET="YOUR_CLIENT_SECRET"
