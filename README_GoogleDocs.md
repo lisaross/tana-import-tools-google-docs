@@ -19,10 +19,9 @@ This document describes how to set up and use the Google Docs converter, which i
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/tanainc/tana-import-tools.git
-    cd tana-import-tools
+    git clone https://github.com/lisaross/tana-import-tools-google-docs.git
+    cd tana-import-tools-google-docs
     ```
-    *(Note: This assumes you will clone the official repository. Since I have modified the code, I will provide the modified code as a zip file instead. You will need to unzip it and navigate into the directory.)*
 
 2.  **Install Dependencies:**
     ```bash
